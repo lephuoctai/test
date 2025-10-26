@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 30px
+}
+.ngoaicung{
+    padding: 0 5%;
+}
+.header>*{
+    width: 200px;
+    height: 60px;
+    background: #80808040;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header>.menu {
+    flex: 1;
+}
